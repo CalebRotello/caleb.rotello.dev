@@ -288,10 +288,13 @@
   .card.title-card {
     background-color: white;
     position: relative;
-    left: -30%;
+    padding-bottom: 0px;
+    left: -20%;
+    height: 14px;
     border: none;
     width: auto;
     font-size: 20px;
+    text-align: left;
   }
 
   .card.list-card {
@@ -300,13 +303,18 @@
     left: -25%;
     border: none;
     font-size: 14px;
-    height: auto;
-    max-height: 14px; 
   }
 
   ul li {
     position: relative;
     left: -150%;
+  }
+
+  .left {
+    position: relative;
+    left: -28%;
+    text-align: left;
+    float: left;
   }
 
   /* Responsive Styles */
@@ -373,12 +381,14 @@
   </div>
 
   <!-- Resources -->
-  <h2 class="card title-card">Skills/Interests</h2>
+  <h2 class="card title-card">Skills and Relevant Coursework</h2>
+
   <!-- link to my resume here -->
-  <a href="">My Resume </a>
-  <ul >
-    <li> C++ Programming Language</li> 
+  <div class="left"><a href="">My Resume </a></div>
+  <ul>
+    <li> C++, Python, Java, Swift</li>
     <li> Compiler Design</li>
+    <li> Algorithms</li>
   </ul>
   <!--
   <p>Here are some links to help you get started:</p>
