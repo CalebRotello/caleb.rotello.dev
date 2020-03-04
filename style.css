@@ -133,7 +133,7 @@ svg.material-icons:not(:last-child) {
 
 .card.list-card {
   position:relative;
-  background-color: white;  
+  /*background-color: white;  */
   left: -25%;
   border: none;
   font-size: 14px;
