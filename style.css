@@ -22,9 +22,26 @@ p {
   margin: 0;
 }
 
+ul li {
+  position: relative;
+  padding-bottom: 10px;
+  /*left: -150%;*/
+}
+
+li {
+  padding-bottom: 5px;
+}
+
+.left {
+  position: relative;
+  left: -28%;
+  text-align: left;
+  float: left;
+}
 .spacer {
   flex: 1;
 }
+
 /*
 .toolbar {
   position: absolute;
@@ -53,11 +70,6 @@ p {
 }
 */
 
-.clr {
-  clear:both;
-  font-size:0;
-}
-
 .content {
   display: flex;
   margin: 82px auto 32px;
@@ -80,8 +92,8 @@ svg.material-icons:not(:last-child) {
 .section {
   background-color: #fafafa;
   height: auto;
-  width: 500px;
-  padding-top: 16px;
+  width: 600px;
+  padding-top: 0px;
   padding-bottom: 0px;
   align-items: left;
   justify-content: left;
@@ -90,13 +102,14 @@ svg.material-icons:not(:last-child) {
 
 .section.section-title {
   position: relative;
+  padding-top: 16px;
   left: -20%;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .section.section-content {
   position: relative;
-  left: -15%;
+  left: -20%;
   font-size: 14px;
 }
 
@@ -127,7 +140,7 @@ svg.material-icons:not(:last-child) {
   min-width: 30%;
   position: relative;
   left: -20%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card.card.name-card span {
@@ -205,17 +218,7 @@ svg.material-icons:not(:last-child) {
   margin-left: 60px;
 }
 
-ul li {
-  position: relative;
-  left: -150%;
-}
 
-.left {
-  position: relative;
-  left: -28%;
-  text-align: left;
-  float: left;
-}
 /*
 svg#rocket {
   width: 80px;
