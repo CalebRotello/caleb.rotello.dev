@@ -63,10 +63,11 @@ svg.material-icons:not(:last-child) {
 
 /* sections class */
 .section {
- /* background-color: #fafafa;*/
+  background-color: #fafafa;
   height: auto;
+  padding: 40px;
   width: 600px;
-  padding-top: 0px;
+  padding-top: 20px;
   padding-bottom: 0px;
  /* text-align: center;*/
   justify-content: center;
@@ -78,14 +79,17 @@ svg.material-icons:not(:last-child) {
 .section.section-title {
   position: relative;
   padding-top: 16px;
+  text-align: left;
 /*  left: -20%;*/
   font-size: 30px;
 }
 
 .section.section-content {
   position: relative;
-/*  left: -20%;*/
+  left: 0%;
   font-size: 14px;
+  text-align: left;
+  max-width: 500px;
 }
 
 /* Card div classes */
