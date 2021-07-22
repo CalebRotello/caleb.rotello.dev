@@ -63,12 +63,10 @@ svg.material-icons:not(:last-child) {
 
 /* sections class */
 .section {
-  width:max-content;
   background-color: #fafafa;
   height: auto;
   justify-content: center;
   font-size: 0px;
-  display: flex;
   /*padding: 40px;
   width: 600px;
   padding-top: 20px;
@@ -77,9 +75,33 @@ svg.material-icons:not(:last-child) {
   align-items: center;*/
 }
 
-.column {
-  flex: 50%;
+/*.section.section-title {
+  position: relative;
+  padding-top: 16px;
+  text-align: left;
+  font-size: 30px;
+  left: -20%;
+}*/
+
+/*.section.section-content {
+  position: relative;
+  left: 0%;
+  font-size: 16px;
+  text-align: left;
+  max-width: 700px;
+}*/
+
+/*.section.paragraph-content {
+  position: relative;
+  padding-top: 0px;
+  left: 0%;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  max-width: 700px;
+  width: 50%;
 }
+*/
 
 /* Card div classes */
 .card {
@@ -102,32 +124,33 @@ svg.material-icons:not(:last-child) {
   */
   margin-left: auto;
   margin-right:auto;
-  align-content: center;
+}
+
+.card.list-card {
+  /*position: relative;
+  left: 0%;*/
   justify-content: center;
-  text-align: center;
-}
-
-.card.paragraph-content.list {
-  width: 100%;
-  text-align: left;
-  display: flex;
-  min-width: 500;
-}
-
-.card.paragraph-content {
-  font-weight: 200;
   font-size: 16px;
   text-align: center;
   max-width: 700px;
   width: 75%;
 }
 
+.card.paragraph-content {
+  /*padding-top: 0px;
+  left: 0%;*/
+  font-weight: 200;
+  font-size: 16px;
+  text-align: center;
+  /*justify-content: center;*/
+  max-width: 700px;
+  width: 75%;
+}
+
 .card.name-card {
-  display:flex;
   font-weight: 5000;
   font-size: 22px;
   text-align: center;
-  width: 100%;
   /*padding: 16px;*/
   /*
   justify-content: center;
@@ -165,7 +188,7 @@ svg.material-icons:not(:last-child) {
   */
   font-size: 16px;
   text-align: center;
-  /*border: 1px solid grey;*/
+  border: 1px solid grey;
 }
 
 table,td,th {
@@ -177,6 +200,58 @@ table,td,th {
 td {
   padding: 5px;
 }
+
+/*
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.card-container .card:not(:last-child) {
+  margin-right: 0;
+}
+
+.card svg.material-icons path {
+  fill: #888;
+}
+
+.card.card-small {
+  height: 16px;
+  width: 168px;
+  font-size: 14px;
+}
+
+.card-container .card:not(.highlight-card) {
+  cursor: pointer;
+}
+
+.card-container .card:not(.highlight-card):hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(black, 0.35);
+}
+
+.card-container .card:not(.highlight-card):hover .material-icons path {
+  fill: rgb(105, 103, 103);
+}
+
+.card.highlight-card {
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: auto;
+  min-width: 30%;
+  position: relative;
+  font-size: 14px;
+}
+
+.card.card.highlight-card span {
+  margin-left: 60px;
+}
+*/
 
 .profile-image {
   display: inline;
@@ -196,3 +271,12 @@ td {
   border-radius: 50%;
 }
 
+.section-left {
+  float: left;
+  width: 50%;
+}
+
+.section-right {
+  float: right;
+  width: 50%;
+}
