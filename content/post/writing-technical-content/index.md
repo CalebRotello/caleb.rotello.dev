@@ -12,7 +12,7 @@ Wowchemy is designed to give technical content creators a seamless experience. Y
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
 
 On this page, you'll find some examples of the types of technical content that can be rendered with Wowchemy.
-
+<!---
 ## Examples
 
 ### Code
@@ -153,6 +153,7 @@ Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math *
 
 Example **multi-line math** using the math linebreak (`\\`):
 
+
 ```latex
 {{</* math */>}}
 $$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
@@ -169,12 +170,13 @@ f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
 1-p_{0}^{*} & \text{if }k=0.\end{cases}
 $$
 
+
 {{< /math >}}
 
 ### Diagrams
 
 Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
-
+--->
 An example **flowchart**:
 
     ```mermaid
