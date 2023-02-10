@@ -28,8 +28,8 @@ bio: My research interests include quantum computing and discrete mathematics.
 # Interests to show in About widget
 interests:
   - Quantum Algorithms
-  - Computational Linguistics
-  - Information Retrieval
+  - Compilers
+  - Computational Complexity 
 
 # Education to show in About widget
 education:
