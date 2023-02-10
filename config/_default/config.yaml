@@ -5,8 +5,8 @@
 
 title: ME # Website name
 #baseURL: 'https://example.com/' # Website URL
-baseURL: 'https://calebrotello.github.io/' # Website URL
-#baseURL: 'https://caleb.rotello.dev/' # Website URL
+#baseURL: 'https://calebrotello.github.io/' # Website URL
+baseURL: 'https://caleb.rotello.dev/' # Website URL
 
 ############################
 ## LANGUAGE
