@@ -18,7 +18,7 @@ slides:
 [Wowchemy](https://wowchemy.com/) | [Documentation](https://wowchemy.com/docs/content/slides/)
 
 ---
-
+<!---
 ## Features
 
 - Efficiently write slides in Markdown
@@ -62,9 +62,9 @@ In-line math: $x + y = z$
 
 Block math:
 
----$$
----f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
----$$
+$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$
 
 ---
 
@@ -159,7 +159,7 @@ Create `assets/css/reveal_custom.css` with:
   color: navy;
 }
 ```
-
+--->
 ---
 
 # Questions?
