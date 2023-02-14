@@ -35,6 +35,7 @@ sections:
   #      gradient_end: '#1976d2'
   #      gradient_start: '#004ba0'
   #      text_color_light: true
+
   - block: about.avatar
     id: about
     content:
@@ -42,6 +43,7 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+
   - block: features
     content:
       title: Skills
@@ -58,6 +60,7 @@ sections:
           description: 10%
           icon: camera-retro
           icon_pack: fas
+
   - block: experience
     content:
       title: Experience
@@ -70,29 +73,77 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Quantum Applications Research Intern
+          company: National Renewable Energy Laboratory
+          company_url: 'https://www.nrel.gov'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: Golden, Colorado
+          date_start: '2021-11-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
+          description: Researched algorithms to utilize quantum computing for renewable energy.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
+        - title: Research Assistant
+          company: Kapit Group, Colorado School of Mines
+          company_url: 'https://physics.mines.edu/project/kapit-group/'
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Golden, Colorado
+          date_start: '2021-05-24'
+          date_end: '2022-08-19'
+          description: |2-
+            Researched classical and quantum algorithms for Noisy Intermediate Scale Quantum computing to:
+
+              * Discover symmetry in quantum systems (classical)
+              * Simulate spin-foam amplitudes in loop-quantum gravity (quantum)
+              * Solve optimization problems (quantum) 
+
+        - title: Bioinformatics Intern
+          company: Invitae
+          company_url: 'https://www.invitae.com/en'
+          company_logo: org-x
+          location: Boulder, Colorado
+          date_start: '2021-05-24'
+          date_end: '2021-08-27'
+          description: Wrote software to analyze genomic panels.
+
+        - title: Research & Development Intern
+          company: ArcherDX
+          company_url: 'https://archerdx.com'
+          company_logo: org-x
+          location: Boulder, Colorado
+          date_start: '2020-05-11'
+          date_end: '2020-08-07'
+          description: Discovered algorithms to mitigate DNA pairing errors. 
+
     design:
       columns: '2'
+
+  - block: collection
+    content:
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+
+  - block: collection
+    id: featured
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -132,33 +183,35 @@ sections:
           url: ''
     design:
       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+
+  #- block: collection
+  #  id: posts
+  #  content:
+  #    title: Recent Posts
+  #    subtitle: ''
+  #    text: ''
+  #    # Choose how many pages you would like to display (0 = all pages)
+  #    count: 5
+  #    # Filter on criteria
+  #    filters:
+  #      folders:
+  #        - post
+  #      author: ""
+  #      category: ""
+  #      tag: ""
+  #      exclude_featured: false
+  #      exclude_future: false
+  #      exclude_past: false
+  #      publication_type: ""
+  #    # Choose how many pages you would like to offset by
+  #    offset: 0
+  #    # Page order: descending (desc) or ascending (asc) date.
+  #    order: desc
+  #  design:
+  #    # Choose a layout view
+  #    view: compact
+  #    columns: '2'
+
   - block: portfolio
     id: projects
     content:
@@ -186,6 +239,7 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
   - block: markdown
     content:
       title: Gallery
@@ -194,31 +248,7 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+
   - block: collection
     id: talks
     content:
@@ -229,56 +259,58 @@ sections:
     design:
       columns: '2'
       view: compact
+
   - block: tag_cloud
     content:
       title: Popular Topics
     design:
       columns: '2'
+
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+       Contact me for anything and everything here:  
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: caleb (at) rotello (dot) dev
+      #phone: 888 888 88 88
+      #appointment_url: 'https://calendly.com'
+      #address:
+      #  street: 450 Serra Mall
+      #  city: Stanford
+      #  region: CA
+      #  postcode: '94305'
+      #  country: United States
+      #  country_code: US
+      #directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+      #office_hours:
+      #  - 'Monday 10:00 to 13:00'
+      #  - 'Wednesday 09:00 to 10:00'
       contact_links:
-        - icon: twitter
+        - icon: linkedin
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          name: Connect
+          link: https://www.linkedin.com/in/calebrotello
+        #- icon: skype
+        #  icon_pack: fab
+        #  name: Skype Me
+        #  link: 'skype:echo123?call'
+        #- icon: video
+        #  icon_pack: fas
+        #  name: Zoom Me
+        #  link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      #form:
+      #  provider: netlify
+      #  formspree:
+      #    id:
+      #  netlify:
+      #    # Enable CAPTCHA challenge to reduce spam?
+      #    captcha: false
     design:
       columns: '2'
 ---

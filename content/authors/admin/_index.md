@@ -23,7 +23,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 #bio: My research interests include distributed robotics, mobile computing and programmable matter.
-bio: My research interests include quantum computing and discrete mathematics.
+bio: My research interests include quantum information and computer science.
 
 # Interests to show in About widget
 interests:
@@ -78,6 +78,6 @@ email: ''
 highlight_name: true
 ---
 
-Caleb Rotello is a quantum computing research intern at the National Renewable Energy Laboratory. His research interests include quantum optimization and simulation algorithms, applications of graph theory, and anything related to complexity science. He has an amateur's experience in loop quantum gravity, game theory, and group theory.
+Caleb Rotello is a quantum computing research intern at the National Renewable Energy Laboratory. His research interests include quantum optimization and simulation algorithms, applications of graph theory, and anything related to complexity science. He has an amateur's research experience in loop quantum gravity, bioinformatics, and group theory.
 {style="text-align: justify;"}
 
