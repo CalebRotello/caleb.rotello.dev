@@ -78,6 +78,6 @@ email: ''
 highlight_name: true
 ---
 
-Caleb Rotello is a quantum computing research intern at the National Renewable Energy Laboratory. His research interests include quantum optimization and simulation algorithms, applications of graph theory, and anything related to complexity science. He has an amateur's research experience in loop quantum gravity, bioinformatics, and group theory.
+Caleb Rotello is a quantum computing research intern at the National Renewable Energy Laboratory. His research interests include quantum optimization and simulation algorithms, applications of graph theory, and complexity science. He has an amateur's experience in loop quantum gravity, bioinformatics, and group theory.
 {style="text-align: justify;"}
 

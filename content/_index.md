@@ -48,17 +48,17 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
+        - name: Quantum Information
           description: 90%
-          icon: r-project
-          icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+          icon: atom
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: Software Engineering
+          description: 100%
+          icon: microchip
+          icon_pack: fa
+        - name: Poetry
+          description: 20%
+          icon: pen-fancy
           icon_pack: fas
 
   - block: experience
@@ -76,7 +76,7 @@ sections:
         - title: Quantum Applications Research Intern
           company: National Renewable Energy Laboratory
           company_url: 'https://www.nrel.gov'
-          company_logo: org-gc
+          company_logo: org-nrel
           location: Golden, Colorado
           date_start: '2021-11-01'
           date_end: ''
@@ -85,7 +85,7 @@ sections:
         - title: Research Assistant
           company: Kapit Group, Colorado School of Mines
           company_url: 'https://physics.mines.edu/project/kapit-group/'
-          company_logo: org-x
+          company_logo: org-mines
           location: Golden, Colorado
           date_start: '2021-05-24'
           date_end: '2022-08-19'
@@ -99,7 +99,7 @@ sections:
         - title: Bioinformatics Intern
           company: Invitae
           company_url: 'https://www.invitae.com/en'
-          company_logo: org-x
+          company_logo: org-nvta
           location: Boulder, Colorado
           date_start: '2021-05-24'
           date_end: '2021-08-27'
@@ -108,7 +108,7 @@ sections:
         - title: Research & Development Intern
           company: ArcherDX
           company_url: 'https://archerdx.com'
-          company_logo: org-x
+          company_logo: org-archerdx
           location: Boulder, Colorado
           date_start: '2020-05-11'
           date_end: '2020-08-07'
@@ -117,9 +117,10 @@ sections:
     design:
       columns: '2'
 
+
   - block: collection
     content:
-      title: Recent Publications
+      title: Publication(s)
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -130,19 +131,35 @@ sections:
         exclude_featured: true
     design:
       columns: '2'
-      view: citation
-
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
       view: card
+
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    text: |-
+  #      {{% callout note %}}
+  #      Quickly discover relevant content by [filtering publications](./publication/).
+  #      {{% /callout %}}
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: true
+  #  design:
+  #    columns: '2'
+  #    view: citation
+
+  #- block: collection
+  #  id: featured
+  #  content:
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      featured_only: true
+  #  design:
+  #    columns: '2'
+  #    view: card
+
 
   - block: accomplishments
     content:
