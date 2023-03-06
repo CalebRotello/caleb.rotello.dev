@@ -28,7 +28,7 @@ summary: We show that, starting from a chosen basis, any invariant, symmetry-pro
 
 tags:
 - Quantum Information
-featured: true
+featured: false
 
 #links:
 #- name: Custom Link
@@ -54,8 +54,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
+#- internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
