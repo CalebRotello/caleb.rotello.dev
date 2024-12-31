@@ -2,9 +2,12 @@ I am a researcher at the [National Renewable Energy Laboratory](https://www.nrel
 
 I received my master's degree in Quantum Engineering from the [Colorado School of Mines](https://quantum.mines.edu), under the advisement of [Dr. Eliot Kapit](https://physics.mines.edu/project/kapit-group/). I did my undergraduate in Computer Science at Mines as well.
 
+My [CV](assets/calebrotello_cv.pdf)
+
 ### recent
 + Dec 23 2024 - I was awarded a 2024 Key Contributor Award by NREL!
-+ Nov 30 2024 - I write my first single-authored paper, ``Quantum algorithm for approximating the expected value of a random-exist quantified oracle'' [arXiv:2412:00567](https://arxiv.org/abs/2412.00567)
++ Nov 30 2024 - I wrote my first single-authored paper, ``Quantum algorithm for approximating the expected value of a random-exist quantified oracle'' [arXiv:2412:00567](https://arxiv.org/abs/2412.00567)
+
 
 
 # A website, because I have to
@@ -18,6 +21,6 @@ I am a Colorado native who grew up in (what used to be) North Denver farming com
 ## contact
 Although slow to respond, I am always happy to grow my network. Either email works!
 
-Professional email: caleb (dot) rotello (at) nrel (dot) gov
+Professional: caleb (dot) rotello (at) nrel (dot) gov
 
-Personal email: caleb (at) rotello (dot) dev
+Personal: caleb (at) rotello (dot) dev
