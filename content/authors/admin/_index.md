@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Quantum Computing Research Assistant
+role: Quantum Computer Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
