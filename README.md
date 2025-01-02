@@ -2,7 +2,7 @@ I am a researcher at the [National Renewable Energy Laboratory](https://www.nrel
 
 I received my master's degree in Quantum Engineering from the [Colorado School of Mines](https://quantum.mines.edu), under the advisement of [Dr. Eliot Kapit](https://physics.mines.edu/project/kapit-group/). I did my undergraduate in Computer Science at Mines as well.
 
-My [CV](assets/calebrotello_cv.pdf) and [me](geneva_headshot.jpeg). 
+My [CV](assets/calebrotello_cv.pdf) and [me](assets/geneva_headshot.jpeg). 
 
 ### recent
 + Dec 23 2024 - I was awarded a 2024 Key Contributor Award by NREL!
