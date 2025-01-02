@@ -1,8 +1,8 @@
 plugins:
   - jekyll-relative-links
 theme: jekyll-theme-minimal
-title: Octocat's homepage
-description: Bookmark this to keep an eye on my project updates!
+title: Caleb Rotello's homepage
+description: My personal portfolio website
 relative_links:
   enabled: true
   collections: true
